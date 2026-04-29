@@ -22,7 +22,7 @@ canvas.pack()
 canvas.create_line(s1,s2, s1 + dlha_ruc * math.cos(uhol_minuta), s2 + dlha_ruc * math.sin(uhol_minuta), fill="black", width=hrubka_m)
 
 canvas.create_line(s1,s2, s1 + kratka_ruc * math.cos(math.radians(cas.second * 6 - 90)), s2 + kratka_ruc * math.sin(math.radians(cas.second * 6 - 90)), fill="black", width=hrubka_h)
-
+canvas.create_text
 
 
 
